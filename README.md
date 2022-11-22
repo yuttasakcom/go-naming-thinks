@@ -27,4 +27,13 @@ var c int          // character
 var a int          // array
 var r rune         // rune
 var sep string     // separator
+
+var src int        // source
+var dst int        // destination
+var b byte         // byte
+var b []byte       // buffer
+var buf []byte     // buffer
+var w io.Writer    // writer
+var r io.Reader    // reader
+var pos int        // position
 ```
